@@ -1,0 +1,42 @@
+.doc {
+    background-color: rgb(61, 61, 61);
+    padding: 0 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+
+    transition: transform 280ms ease-in-out;
+    
+    p {
+        font-size: 16px;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+    }
+}
+
+cmds {
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+bleu {
+    color: rgb(60, 155, 192);
+}
+
+rouge {
+    color: rgb(167, 48, 48);
+}
+
+jaune {
+    color: rgb(238, 234, 23);
+}

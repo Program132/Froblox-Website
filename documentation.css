@@ -1,0 +1,41 @@
+.doc {
+  background-color: #3d3d3d;
+  padding: 0 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 280ms ease-in-out;
+}
+.doc p {
+  font-size: 16px;
+}
+.doc:hover {
+  transform: scale(1.02);
+}
+
+cmds {
+  background-color: black;
+  width: auto;
+  height: auto;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+bleu {
+  color: #3c9bc0;
+}
+
+rouge {
+  color: #a73030;
+}
+
+jaune {
+  color: #eeea17;
+}
+
+/*# sourceMappingURL=documentation.css.map */
