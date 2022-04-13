@@ -25,14 +25,15 @@
             <h2>[ Le contenu du bot ]</h2><br>
 
             <p>
-                Le préfixe est <cmds>r!</cmds>.<br>
-                Vous avez deux commandes à disposition: <cmds>r!info</cmds>, <cmds>r!getservice</cmds> et <cmds>r!ex</cmds> ! <br>
+                Actuellement, on utile les slash commands donc : <cmds>/</cmds>.<br>
+                Par ailleurs, vous avez des choix disponibles!
+                Vous avez deux commandes à disposition: <cmds>/info</cmds>, <cmds>/getservice</cmds>, <cmds>/enum</cmds> et <cmds>/ex</cmds> ! <br>
                 Dans chaque élément, vous obtenez le lien vers la documentation (avec la recherche demandé).
             </p><br><br><br><br>
             
             <div class="doc">
                 <p>
-                    Pour la commande <cmds>r!info</cmds> -> <cmds>r!info <rouge>[argument]</rouge></cmds>
+                    Pour la commande <cmds>/info</cmds> -> <cmds>/info <rouge>[argument]</rouge></cmds>
                 </p>
             </div>
 
@@ -44,19 +45,40 @@
 
             <div class="doc">
                 <p>
-                    Exemple: <cmds>r!info <jaune>player</jaune></cmds> <br>
-                    Ce qui nous donne: <br><img src="img/Ex1.PNG" width="290px" height="575px"><br>
+                    Exemple: <cmds>/info <jaune>player</jaune></cmds> <br>
+                    Ce qui nous donne: <br><img src="img/Ex1.PNG" width="350px" height="700px"><br>
                     Sachez que ici vous ne voyez pas tout, il y a d'autres éléments donné!
                 </p>
             </div><br><br><br><br>
 
 
 
+            <div class="doc">
+                <p>
+                    Pour la commande <cmds>/enum</cmds> -> <cmds>/enum <rouge>[argument]</rouge></cmds>
+                </p>
+            </div>
+
+            <div class="doc">
+                <p>
+                    Pour les <rouge>aruments</rouge> vous avez ->
+                    <jaune>cameramode</jaune>, <jaune>cameratype</jaune>, <jaune>keycode</jaune> et <jaune>material</jaune> !
+                </p>
+            </div>
+
+            <div class="doc">
+                <p>
+                    Exemple: <cmds>/enum <jaune>keycode</jaune></cmds> <br>
+                    Ce qui nous donne: <br><img src="img/Ex4.PNG" width="300px" height="600px"><br>
+                </p>
+            </div><br><br><br><br>
+
+
 
 
             <div class="doc">
                 <p>
-                    Pour la commande <cmds>r!getservice</cmds> -> <cmds>r!getservice <rouge>[argument]</rouge></cmds>
+                    Pour la commande <cmds>/getservice</cmds> -> <cmds>/getservice <rouge>[argument]</rouge></cmds>
                 </p>
             </div>
 
@@ -71,7 +93,7 @@
 
             <div class="doc">
                 <p>
-                    Exemple: <cmds>r!getservice <jaune>runservice</jaune></cmds> <br>
+                    Exemple: <cmds>/getservice <jaune>runservice</jaune></cmds> <br>
                     Ce qui nous donne: <br><img src="img/Ex2.PNG" width="275px" height="350px"><br>
                 </p>
             </div><br><br><br><br>
@@ -82,7 +104,7 @@
 
             <div class="doc">
                 <p>
-                    Pour la commande <cmds>r!ex</cmds> -> <cmds>r!ex <bleu>[argument: fichier]</bleu>/<rouge>[argument: élément]</rouge></cmds>
+                    Pour la commande <cmds>/ex</cmds> -> <cmds>/ex <bleu>[argument: fichier]</bleu>/<rouge>[argument: élément]</rouge></cmds>
                 </p>
             </div>
 
@@ -101,9 +123,14 @@
 
             <div class="doc">
                 <p>
-                    Exemple : <cmds>r!ex <bleu>userinputservice</bleu>/<rouge>inputbegan</rouge></cmds> <br>
+                    Exemple : <cmds>/ex <bleu>userinputservice</bleu>/<rouge>inputbegan</rouge></cmds> <br>
                     Ce qui nous donne: <br><img src="img/Ex3.PNG" width="290px" height="190px"><br>
                     Notez que vous ne devez pas mettre paranthèses, deux points ou autre !
+
+                    <br><br>
+                    Petite note à avoir concernant les enums ! Vous devrez donner un 3ème argument OBLIGATOIREMENT !
+                    Exemple : <cmds>/ex</cmds> <bleu>enum</bleu>/<rouge>keycode</rouge>/<rouge>a</rouge>
+                    Ce qui donnera un exemple sur les KeyCode avec la touche A.
                 </p>
             </div><br><br><br><br>
         </div>
