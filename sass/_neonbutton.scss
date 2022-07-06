@@ -12,8 +12,13 @@
   &:hover
   {
     color: var(--color-text);
-    background: #e3178a;
+    background: var(--back-color);
     overflow: hidden;
     box-shadow: 0 0 10px var(--back-color), 0 0 40px var(--back-color), 0 0 80px var(--back-color);
+  }
+
+  span {
+    padding: 10px 10px;
+    font-size: 20px;
   }
 }
