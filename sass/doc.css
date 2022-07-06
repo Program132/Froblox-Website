@@ -1,0 +1,47 @@
+p {
+  color: #bebebe;
+}
+
+ex {
+  padding: 0 5px;
+  color: white;
+  background: #333333;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(222, 111, 231);
+}
+
+h2 {
+  color: #bebebe;
+  font-size: 25px;
+}
+
+.content {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.part {
+  height: 45px;
+}
+
+.doc {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 20px;
+}
+.doc:hover {
+  background: var(--clr);
+  box-shadow: 0 0 5px var(--clr), 0 0 15px var(--clr), 0 0 30px var(--clr), 0 0 50px var(--clr);
+  transition: 0.5s;
+  transition-delay: 0.05s;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=doc.css.map */

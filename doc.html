@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+      <meta charset="utf-8" />
+      <title>Froblox</title>
+      <link rel="icon" type="image/png" href="img/Froblox.png"/>
+      <link rel="stylesheet" href="sass/home.css">
+      <link rel="stylesheet" href="sass/doc.css">
+  </head>
+
+  <body>
+    <ul class="a-ul-manager">
+        <li style="--i:3; --clr: rgb(40, 170, 221)"><a href="home.html">Accueil</a></li>
+        <li style="--i:2; --clr: rgb(222,111,231)"><a href="doc.html">Documentation</a></li>
+        <li style="--i:1; --clr: rgb(56,222,38)"><a href="about.html">A propos</a></li>
+    </ul>
+
+    <section class="content">
+
+        <h1>Documentation</h1>
+        <div class="part"></div>
+        <h2>Dans cette partie du site, vous trouverez les commandes ainsi que les arguments à donner pour que vous compreniez.<br>
+        ATTENTION: Il n'y a pas toute la documentation de Roblox disponible, mais vous trouverez déjà des parties disponibles en tapant la commande.</h2>
+        <div class="part"></div>
+        <a class="doc" href="#" style="--clr: #350477;--i: 0;"><span>/info [THEME]</span></a>
+        <p>Ici THEME est argument où vous donnez un objet et non un service, une instance ou encore une énumération.<br>
+            Exemple: <ex>Mouse</ex>
+        </p>
+        <div class="part"></div>
+        <a class="doc" href="#" style="--clr: #041f77;--i: 0;"><span>/enum [PARTIE]</span></a>
+        <p>Ici PARTIE est un argument où vous devez mettre une énumération.<br>
+            Exemple: <ex>KeyCode</ex>
+        </p>
+        <div class="part"></div>
+        <a class="doc" href="#" style="--clr: #700d0d;--i: 0;"><span>/getservice [SERVICE]</span></a>
+        <p>Ici SERVICE est un argument où vous devez donner un service existant sur le studio.<br>
+            Exemples: <ex>WorkSpace</ex> ou <ex>RunService</ex>
+        </p>
+        <div class="part"></div>
+        <a class="doc" href="#" style="--clr: #815008;--i: 0;"><span>/exemple [FICHIER] [PARTIE 1] [PARTIE 2]</span></a>
+        <p>Ici : <br>
+            FICHIER est l'objet, l'énumération ou le service.<br>
+            PARTIE 1 est une propriété, un évènement, une fonction ou autre.<br>
+            PARTIE 2 est facultatif, il sert dans le cas d'une énumération par exemple.<br>
+            <br>
+            Exemples: <ex>/exemple fichier: TweenService partie: create </ex> ou <ex>/exemple fichier: httpservice partie: GetAsync</ex>
+        </p>
+    </section>
+  </body>
+</html>
