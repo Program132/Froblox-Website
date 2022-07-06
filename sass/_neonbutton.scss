@@ -1,0 +1,19 @@
+@use '_utils';
+
+.neonbutton
+{
+  padding: 2px 3px;
+  color: var(--main);
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: 0.2s;
+  text-decoration: none;
+
+  &:hover
+  {
+    color: var(--color-text);
+    background: #e3178a;
+    overflow: hidden;
+    box-shadow: 0 0 10px var(--back-color), 0 0 40px var(--back-color), 0 0 80px var(--back-color);
+  }
+}
