@@ -1,0 +1,50 @@
+@use '_menu';
+@use 'neonbutton';
+@use '_utils';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background: #434750;
+    display: flex;
+}
+
+.content-p1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30%;
+    margin-left: 10%;
+
+    .title {
+        position: relative;
+        font-size: 35px;
+
+        span {
+            background: linear-gradient(175deg, #6868f5 40%, white 70%, #e36e6e 10%);
+            background-clip: border-box;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    p {
+        text-align: center;
+        font-size: 17px;
+        color: utils.$color-text;
+    }
+
+    .logo {
+        width: 270px;
+        height: 150px;
+    }
+}

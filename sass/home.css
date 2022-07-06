@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+.a-ul-manager {
+  font-size: 25px;
+  margin-left: 13%;
+  margin-top: 7%;
+  position: relative;
+  justify-content: left;
+  min-height: 100vh;
+  transform: skewY(-15deg);
+  transition: 0.5s;
+}
+.a-ul-manager li {
+  position: relative;
+  list-style: none;
+  width: 200px;
+  background: #3e3f46;
+  padding: 20px;
+  z-index: var(--i);
+  transition: 0.5s;
+}
+.a-ul-manager li:hover {
+  background: var(--clr);
+  transform: translateX(-50px);
+}
+.a-ul-manager li:hover::before {
+  background: var(--clr);
+}
+.a-ul-manager li:hover::after {
+  background: var(--clr);
+}
+.a-ul-manager li:hover a {
+  color: #fff;
+}
+.a-ul-manager li::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 40px;
+  left: -40px;
+  height: 100%;
+  background: #3e3f46;
+  transform-origin: right;
+  transform: skewY(45deg);
+  transition: 0.5s;
+}
+.a-ul-manager li::after {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  background: #3e3f46;
+  transform-origin: bottom;
+  transform: skewX(45deg);
+  transition: 0.5s;
+}
+.a-ul-manager li:last-child::after {
+  box-shadow: -150px 150px 20px rgba(0, 0, 0, 0.5);
+}
+.a-ul-manager li a {
+  text-decoration: none;
+  color: #999;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  transition: 0.5s;
+}
+
+.neonbutton {
+  padding: 2px 3px;
+  color: var(--main);
+  letter-spacing: 1px;
+  overflow: hidden;
+  transition: 0.2s;
+  text-decoration: none;
+}
+.neonbutton:hover {
+  color: var(--color-text);
+  background: #e3178a;
+  overflow: hidden;
+  box-shadow: 0 0 10px var(--back-color), 0 0 40px var(--back-color), 0 0 80px var(--back-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  background: #434750;
+  display: flex;
+}
+
+.content-p1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30%;
+  margin-left: 10%;
+}
+.content-p1 .title {
+  position: relative;
+  font-size: 35px;
+}
+.content-p1 .title span {
+  background: linear-gradient(175deg, #6868f5 40%, white 70%, #e36e6e 10%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content-p1 p {
+  text-align: center;
+  font-size: 17px;
+  color: #bebebe;
+}
+.content-p1 .logo {
+  width: 270px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=home.css.map */
